@@ -12,10 +12,10 @@ import javalib.worldimages.RectangleImage;
 
 interface Global {
   // Number of cells on height and width
-  int boardWidth = 3;
-  int boardHeight = 3;
+  int boardWidth = 80;
+  int boardHeight = 60;
 
-  int cellLength = 50;
+  int cellLength = 12;
 
   int width = boardWidth * cellLength;
   int height = boardHeight * cellLength;

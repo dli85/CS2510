@@ -28,7 +28,7 @@ class ExamplesMaze {
   }
 
   boolean testBigBang(Tester t) {
-    Maze m = new Maze(new Random(seed));
+    Maze m = new Maze();
     m.bigBang(Global.width, Global.height, 1.0 / Global.tickRate);
     return true;
   }
